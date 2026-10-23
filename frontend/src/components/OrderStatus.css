@@ -1,0 +1,108 @@
+.tracker-card {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.tracker-header h2 {
+  margin: 0 0 0.5rem 0;
+  color: #1e293b;
+}
+
+.tracker-header p {
+  margin: 0;
+  color: #64748b;
+}
+
+.stepper-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.step-item {
+  flex: 1;
+  text-align: center;
+}
+
+.step-circle {
+  width: 36px;
+  height: 36px;
+  margin: 0 auto 0.5rem;
+  border-radius: 50%;
+  background-color: #e2e8f0;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.step-circle.active {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.step-label {
+  font-size: 0.875rem;
+  color: #94a3b8;
+}
+
+.step-label.active-text {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.current-status-banner {
+  padding: 1rem;
+  background-color: #eff6ff;
+  border-left: 4px solid #2563eb;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  color: #1e293b;
+}
+
+.status-highlight {
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.actions-section h4 {
+  margin: 0 0 0.75rem 0;
+  color: #334155;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.status-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #334155;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: all 0.15s ease;
+}
+
+.status-btn:hover {
+  background-color: #f1f5f9;
+}
+
+.status-btn.btn-active {
+  background-color: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+  font-weight: 600;
+}

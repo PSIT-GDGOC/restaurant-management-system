@@ -1,5 +1,5 @@
 import './App.css'
-
+import OrderStatus from './components/OrderStatus';
 function App() {
   return (
     <div className="app">
@@ -76,6 +76,11 @@ function App() {
             </div>
             <div className="visual-tag">Made for hospitality ✨</div>
           </div>
+        </section>
+
+ 
+        <section style={{ padding: '2rem 1rem' }}>
+          <OrderStatus />
         </section>
 
         <section className="features-section" id="features">
